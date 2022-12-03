@@ -1,6 +1,6 @@
 import * as THREE from "three";
 
-function Sphere() {
+function FirstExample() {
   function renderContent() {
     // Creating the necessary elements.
     const scene = new THREE.Scene();
@@ -35,9 +35,9 @@ function Sphere() {
 
   return (
     <>
-        <button onClick={renderContent}>Click to Render Object</button>
+      <button onClick={renderContent}>Click to Render Object</button>
     </>
-  )
+  );
 }
 
-export default Sphere;
+export default FirstExample;
